@@ -84,11 +84,11 @@ you'll solve it.
 
 ## What you get from us
 
-* Free credits for ElevenLabs, the voice platform. You claim them yourself through a bot on our
-  Discord server. Join the server at https://discord.com/invite/VnBvbbcdEC, open the channel called
-  coupon-codes, click "Start Redemption," and fill in the short form with the email you registered
-  with. The bot then sends you your own code. There is a short video that walks through it at
-  https://youtu.be/S143_JtCtV8.
+* Free credits for ElevenLabs, the voice platform. You claim them yourself through a bot on
+  ElevenLabs' own Discord server (not ours). Join the server at https://discord.com/invite/VnBvbbcdEC,
+  open the channel called coupon-codes, click "Start Redemption," and fill in the short form with
+  the email you registered with. The bot then sends you your own code. There is a short video that
+  walks through it at https://youtu.be/S143_JtCtV8.
 * A Twilio account, which is the service that places the actual phone call. If you need one, just
   reach out to us and we will take care of it.
 * A few example calls, written out with the details changed, so you can hear what good ones sound
