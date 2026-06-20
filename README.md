@@ -122,7 +122,7 @@ you'll solve it.
   open the channel called coupon-codes, click "Start Redemption," and fill in the short form with
   the email you registered with. The bot then sends you your own code. There is a short video that
   walks through it at https://youtu.be/S143_JtCtV8.
-* A Twilio account, which is the service that places the actual phone call. If you need one, just
+* A Twilio account, which is the service that places the actual phone call. Try out the free version and if you reach the capacity, just
   reach out to us and we will take care of it.
 * A few example calls, written out with the details changed, so you can hear what good ones sound
   like. You will find them in the recordings folder.
