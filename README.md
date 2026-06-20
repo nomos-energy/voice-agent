@@ -47,7 +47,7 @@ it had already been removed. So the old market location is dead, and the connect
 up again from scratch. The win was not a reference number. It was understanding the real reason,
 and knowing the next step, which was to go back to the customer.
 
-You can hear three of these calls written out in the recordings folder, and you will run into the
+You can hear four of these calls written out in the recordings folder, and you will run into the
 same kinds of case:
 
 | Case | What is wrong | What a cleared case looks like |
