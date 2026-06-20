@@ -1,27 +1,28 @@
-# Example clearing call (transcript)
+# Example call 1: a registration that bounced
 
 An illustrative transcript of a Nomos clearing call, so you can hear what a good call sounds
 like. All identifiers are synthetic.
 
 This is `CASE-A` from `fixtures.json`: a registration that bounced with "Marktlokation nimmt
-nicht teil".
+nicht teil" (this market location is not taking part).
 
 ---
 
-**[IVR]** Willkommen bei der Bayern Werknetz GmbH. Bitte wählen Sie eine der folgenden Optionen.
-Für Fragen zum Lieferantenwechsel drücken Sie die 1.
+**[Automated phone menu]** Willkommen bei der Bayern Werknetz GmbH. Bitte wählen Sie eine der
+folgenden Optionen. Für Fragen zum Lieferantenwechsel drücken Sie die 1.
 
-> The agent recognises the menu and presses **1** (DTMF). No human is on the line yet.
+> The agent recognises it is a menu, not a person, and presses 1 on the keypad. No one is on the
+> line yet.
 
 **[Sachbearbeiterin]** Guten Tag, Sie sprechen mit Sandra Jerke.
 
 **[Agent]** Guten Tag, hier spricht ein KI-Assistent im Auftrag des Stromlieferanten Nomos. Wir
 versuchen, einen Kunden in Ihrem Netz anzumelden. Wir haben die MaLo von Ihnen bekommen, aber die
 Netzanmeldung wird mit "Marktlokation nimmt nicht teil" abgelehnt. Darf ich die MaLo kurz
-ansagen? Das wäre die fünf-null-drei-eins-zwei-vier-sieben-acht-neun-null-eins.
+ansagen? Das wäre die fünf, null, drei, eins, zwei, vier, sieben, acht, neun, null, eins.
 
-> AI disclosure first, the case stated in two sentences, the MaLo offered up front and read out
-> digit by digit.
+> The agent says it is an artificial intelligence first, states the case in two sentences, and
+> offers the market-location number up front, read out one digit at a time.
 
 **[Sachbearbeiterin]** Bei welcher Lieferstelle sollten wir denn rauskommen?
 
@@ -41,7 +42,7 @@ noch, Tschüss!
 
 ---
 
-**Why this is a win.** It did not end with a ticket number. It ended with a **diagnosis** (the
-meter was a construction-site meter, removed on 18.05, so the old market location is dead and a
-new connection is needed) **plus the next step** (go back to the customer). That is a fully
+**Why this is a win.** It did not end with a reference number. It ended with the real reason (the
+meter was a temporary construction-site meter, removed on 18.05, so the old market location is
+dead and a new connection is needed) and the next step (go back to the customer). That is a fully
 cleared case.

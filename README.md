@@ -89,8 +89,8 @@ single right answer, and we are just as interested in the angle you take as in w
   https://youtu.be/S143_JtCtV8.
 * A Twilio account, which is the service that places the actual phone call. If you need one, just
   reach out to us and we will take care of it.
-* An example call, written out with the details changed, so you can hear what a good one sounds
-  like. You will find it in the recordings folder.
+* A few example calls, written out with the details changed, so you can hear what good ones sound
+  like. You will find them in the recordings folder.
 * A set of made-up cases to practise on, in the file fixtures.json. The customers, numbers and
   addresses are all invented. None of it is real.
 * A one-page cheat-sheet (the file CHEATSHEET.md) that explains every German term you will hear in

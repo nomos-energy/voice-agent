@@ -33,7 +33,7 @@ and talks it out. That call is the whole task.
 | Term | Plain English |
 |---|---|
 | (Netz-)Anmeldung | The registration you sent to start supplying the customer. The thing that's stuck. |
-| Lieferantenwechsel | The customer switching supplier (to Nomos). Usually the right IVR menu option. |
+| Lieferantenwechsel | The customer switching supplier (to Nomos). Usually the right option in the phone menu. |
 | "Marktlokation nimmt nicht teil" | "This market location is not participating." Your registration bounced. Find out why. |
 | APERAK | The automated "message received / rejected" receipt. Got an APERAK but no confirmation means processing stalled. |
 | Baustromzähler | A temporary construction-site meter. Removed when the building is done, so the connection then needs a brand-new setup. |
@@ -59,9 +59,9 @@ no security interrogation. Walk in with those four facts and offer them proactiv
 ## Call texture
 
 German, polite, brisk (about two minutes). Professional register ("Guten Tag", "Darf ich
-kurz...", "Schönen Tag noch, Tschüss"). The clerk is helpful, not adversarial. There's an IVR
-menu first ("für Lieferantenwechsel drücken Sie die 1") that your agent navigates with DTMF
-before a human answers.
+kurz...", "Schönen Tag noch, Tschüss"). The clerk is helpful, not adversarial. There's an
+automated phone menu first ("für Lieferantenwechsel drücken Sie die 1") that your agent navigates
+by pressing the right number on the keypad before a human answers.
 
 ## Two rules, non-negotiable
 
