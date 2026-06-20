@@ -130,8 +130,6 @@ you'll solve it.
   addresses are all invented. None of it is real.
 * A one-page cheat-sheet (the file CHEATSHEET.md) that explains every German term you will hear in
   plain English. You do not need to speak German or know anything about the energy market.
-* The phone number of our practice clerk. Your agent only ever calls that number, never a real grid
-  operator.
 
 If you need anything else, just ask. We have more resources on hand, and someone from Nomos is
 around all weekend to help you get set up.
