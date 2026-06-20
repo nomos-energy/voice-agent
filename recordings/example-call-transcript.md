@@ -25,7 +25,7 @@ ansagen? Das wäre die fünf-null-drei-eins-zwei-vier-sieben-acht-neun-null-eins
 
 **[Sachbearbeiterin]** Bei welcher Lieferstelle sollten wir denn rauskommen?
 
-**[Agent]** In Kastel, Industriestraße 4.
+**[Agent]** In Mainz-Kastel, Musterstraße 4.
 
 **[Sachbearbeiterin]** Und zu wann haben Sie die Anmeldung geschickt?
 
