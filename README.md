@@ -87,8 +87,8 @@ single right answer, and we are just as interested in the angle you take as in w
   coupon-codes, click "Start Redemption," and fill in the short form with the email you registered
   with. The bot then sends you your own code. There is a short video that walks through it at
   https://youtu.be/S143_JtCtV8.
-* A Twilio account, which is the service that places the actual phone call for you. Just ask us on
-  Discord and someone from Nomos will set you up.
+* A Twilio account, which is the service that places the actual phone call. If you need one, just
+  reach out to us and we will take care of it.
 * A starter project with the outbound call already wired up, so your first call is only minutes
   away.
 * Three to five real calls, recorded and written out, with the details removed, so you can hear
