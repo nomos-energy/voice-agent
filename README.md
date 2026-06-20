@@ -89,16 +89,17 @@ single right answer, and we are just as interested in the angle you take as in w
   https://youtu.be/S143_JtCtV8.
 * A Twilio account, which is the service that places the actual phone call. If you need one, just
   reach out to us and we will take care of it.
-* A starter project with the outbound call already wired up, so your first call is only minutes
-  away.
-* Three to five real calls, recorded and written out, with the details removed, so you can hear
-  what a good one sounds like. You will find them in the recordings folder.
+* An example call, written out with the details changed, so you can hear what a good one sounds
+  like. You will find it in the recordings folder.
 * A set of made-up cases to practise on, in the file fixtures.json. The customers, numbers and
   addresses are all invented. None of it is real.
 * A one-page cheat-sheet (the file CHEATSHEET.md) that explains every German term you will hear in
   plain English. You do not need to speak German or know anything about the energy market.
 * The phone number of our practice clerk. Your agent only ever calls that number, never a real grid
   operator.
+
+If you need anything else, just ask. We have more resources on hand, and someone from Nomos is
+around all weekend to help you get set up.
 
 Two rules you cannot break. Your agent has to say it is an artificial intelligence as its very first
 words to a person, because European law (the EU AI Act) requires it. And it only ever uses the

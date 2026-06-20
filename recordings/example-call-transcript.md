@@ -1,7 +1,7 @@
 # Example clearing call (transcript)
 
-An illustrative, anonymized transcript of a Nomos clearing call, so you can hear what a good call
-sounds like. All identifiers are synthetic. More recordings will be shared at the event.
+An illustrative transcript of a Nomos clearing call, so you can hear what a good call sounds
+like. All identifiers are synthetic.
 
 This is `CASE-A` from `fixtures.json`: a registration that bounced with "Marktlokation nimmt
 nicht teil".
