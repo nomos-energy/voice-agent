@@ -1,11 +1,5 @@
 # Example call 4: a MaLo identification — the real, unscripted call
 
-The three transcripts above are cleaned-up renditions of what a *good agent* sounds like. This one
-is different: it is a **real Nomos clearing call, transcribed as it actually happened** and only
-lightly anonymized. All names, identifiers and addresses have been replaced with synthetic ones,
-but the disfluencies, the hold music, the dead air and the dead ends are left in on purpose — so
-you can hear what the flow and tone of a real call are actually like.
-
 It is a **MaLo-Ident** call (the same case type as `CASE-C` in `fixtures.json`, but a different,
 messier instance — it is not driven by a fixture). Nomos is trying to find the market-location
 number (the MaLo) for a connection it wants to register, because the automated lookup returned
