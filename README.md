@@ -56,6 +56,39 @@ same kinds of case:
 | A registration that bounced | Rejected even though we have a valid market-location number | The real reason, plus the next step |
 | The wrong market-location number | The number we have does not match the address | The correct number, read back to be sure |
 
+## How a sign-up works, and where these calls fit in
+
+When a household switches to Nomos, the sign-up runs through three steps behind the scenes, all of
+them automated message exchanges with the rest of the market. Most sign-ups clear all three on their
+own and nobody notices. A clearing call only happens when one of the three gets stuck and neither
+the automated messages nor a follow-up email can free it. So every call you build is really rescuing
+a sign-up at one of these three points.
+
+**Step one: find the market-location number.** Before Nomos can register anything, it needs the
+official identifier of the delivery point, the market-location number (the MaLo). Nomos asks the
+grid operator to identify it from the customer's name and address, and if needed the meter number.
+If the grid operator returns a clear answer, the number is saved and the sign-up moves on. If it
+comes back with no match, a different number, or no reply at all, the case stalls here. In German
+this step is called MaLo-Ident. It is the call in example two, where the clerk reads out the correct
+number, and in example four, a real call where no number could be found because the meter had been
+removed.
+
+**Step two: cancel the old contract.** A switch means the customer's previous supplier has to be
+terminated, which Nomos does with an automated message to that supplier. If the old supplier does
+not answer, or rejects it, the case stalls, and the next step is a reminder, asking the customer to
+cancel it themselves, or a call. In German this step is called Kündigung.
+
+**Step three: register Nomos with the grid operator.** Finally Nomos registers the connection in its
+own name with the grid operator. The grid operator either confirms it, or rejects it with something
+like "this market location is not taking part," or sends an automated receipt but never the
+confirmation, or says another registration is already in progress. Any of those leaves the case
+stuck. In German this step is called Netzanmeldung. It is the call in example one, a registration
+that bounced, and in example three, where we sent it and heard nothing back.
+
+To give a sense of scale, on one ordinary day the back office had more than a hundred sign-ups stuck
+across exactly these three steps at once, the largest share of them waiting on a cancellation. Every
+one of those is a phone call waiting to happen, which is the job you are automating.
+
 ## Your challenge
 
 Build the AI voice agent that makes that call, and bridges the gap until the market itself can
