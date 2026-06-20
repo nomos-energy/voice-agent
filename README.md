@@ -1,30 +1,25 @@
 # Clearing calls
 
-## Context
+## About
 
-At Nomos, we want to make energy abundant for European households. We are building a new kind of
-power company from the ground up, with software and artificial intelligence at its core, and we
-build the whole thing ourselves because that is the only way to do it properly. We create new
-energy products together with Europe's leading technology companies and installers, and we turn
-energy into a cost-saving feature inside the things people already own, like electric vehicles,
-heat pumps and home batteries. One of those partners, Cloover, is also a partner in this
+At Nomos, we're building a full-stack, AI-native power company from first principles, with one
+mission: to create energy abundance in Europe. We develop new energy products together with
+Europe's leading technology companies and installers, and we embed energy as a cost-saving feature
+inside the things people already buy: electric vehicles, heat pumps, battery storage and more. One
+of those partners is Cloover, whose electricity tariff we power, and who is also a partner in this
 hackathon.
 
+## The problem
+
 To supply even a single household, we exchange a constant stream of regulated messages with the
-rest of the German energy market. That means the grid operators (called Netzbetreiber in German),
-the metering operators, and the other electricity suppliers. We have already made two of these
-channels run on their own. The first is the computer-to-computer one, where our systems and
-theirs swap standardised electronic messages in a format the industry calls EDIFACT. The second
-is plain email. Both of them now handle themselves.
+rest of the German energy market: grid operators, metering operators, other suppliers. We've
+already made ourselves autonomous in the two big layers, the machine-to-machine one (EDIFACT) and
+the written one (email).
 
-But the market is not ready for full automation yet. Sometimes a message bounces back with an
-error code nobody can read, or a grid operator simply never replies. When that happens, the rules
-say the case has to be sorted out over the phone. Today the only thing that works is a person
-picking up the phone, getting through to the right desk, explaining the case, and pushing until
-there is an answer.
-
-Your challenge is to build the voice agent that makes that call. It clears the case today, and it
-bridges the gap until the market itself can support full automation.
+But the market isn't ready for full automation yet. Sometimes a message bounces with a cryptic
+error, or a grid operator simply never replies, and the rules push the case off the automated
+rails and onto a phone call. The only thing that clears it then is a human: pick up the phone, get
+to the right desk, explain the case, and push until there's an answer.
 
 ## What a clearing call looks like
 
@@ -52,7 +47,8 @@ it had already been removed. So the old market location is dead, and the connect
 up again from scratch. The win was not a reference number. It was understanding the real reason,
 and knowing the next step, which was to go back to the customer.
 
-You will run into three kinds of case:
+You can hear three of these calls written out in the recordings folder, and you will run into the
+same kinds of case:
 
 | Case | What is wrong | What a cleared case looks like |
 |---|---|---|
@@ -60,25 +56,31 @@ You will run into three kinds of case:
 | A registration that bounced | Rejected even though we have a valid market-location number | The real reason, plus the next step |
 | The wrong market-location number | The number we have does not match the address | The correct number, read back to be sure |
 
-## The goal
+## Your challenge
 
-Build an agent that Helga, 54, sitting in a grid operator's back office, is happy to talk to and
-does not hang up on in the first ten seconds. That sounds soft, but it is the whole game. It means
-an agent that is warm and genuinely human, and that can slow down and read a long number back
-cleanly, one digit at a time. That last part is where most voice agents fall apart.
+Build the AI voice agent that makes that call, and bridges the gap until the market itself can
+support full automation.
 
-It also has to actually clear the case. That means pulling the key facts out of the conversation,
-saving them, and setting the right next action in motion. Two real examples:
+We essentially put emphasis on an agent that Helga, 54, sitting in a grid operator's back office,
+is happy to talk to and does not hang up on in the first ten seconds. It sounds soft, but it's the
+whole game. We mean an agent that feels warm and genuinely human, one that can slow down and read
+a long number back cleanly, one digit at a time. That last part is where most voice agents fall
+apart.
 
-* It gets the market-location number from Helga, writes it into our system, and the customer's
-  sign-up carries on by itself.
-* It learns the meter is no longer active, because it was only ever there while the house was being
-  built, notes that we need to reach back out to the customer, and hands the case to our email
-  agent.
+It also has to clear the case, not just hold a nice conversation. The agent takes a structured
+case file, places the call, and runs the whole German conversation on its own, with no human
+steering it. When it hangs up, it pulls the key facts out, stores them as clean structured data,
+leaves a short note in plain language (exactly what our back office would write down), and
+triggers the right next action. Two examples:
 
-This is a hands-on exercise. We want to see how you make an agent sound human, how you get it to
-listen and pull out the right facts, and how you close the loop back into a system. There is no
-single right answer, and we are just as interested in the angle you take as in where you land.
+* It gets the market-location number from Helga, writes it into our system, and triggers the next
+  step in the sign-up process.
+* It learns the meter is no longer active, since it was only ever there while the house was being
+  built, flags that we need to reach out to the customer, and triggers our email agent.
+
+We'll give you proprietary resources about our industry and our own processes, everything you need
+to build the leading voice agent for the energy market. Beyond that, we're genuinely curious how
+you'll solve it.
 
 ## What you get from us
 
